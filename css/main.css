@@ -1,0 +1,345 @@
+/* Global Styles */
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {font-family: 'Varela Round', sans-serif; box-sizing: border-box; background-color: #FFF;}
+
+
+/* Navigation Bar */
+
+nav {
+	background-color: rgba(242, 242, 242, 0.9);
+	height: 80px;
+	width: 100%;
+	vertical-align: middle;
+	padding: 0 30px;
+	position: fixed;
+	z-index: 99;
+}
+
+a#brandNav {
+	line-height: 110px;
+}
+
+a#brandNav img {
+	display: inline;
+	height: 40px;
+}
+
+#langNav {
+	float: right;
+}
+
+#langNav a, span {
+	color: #FFF;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	line-height: 80px;
+	color: #707070;
+}
+
+#langNav a#langActive {
+	color: #749BFF;
+}
+
+
+/* Showcase */
+
+#showcase {
+	height: 100vh;
+	background-image: url('../img/showcase_bg.png');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 20px;
+}
+
+#showcase h3 {
+	color: #FFF;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+#showcase a {
+	padding: 10px;
+	color: #FFF;
+	font-size: 25px;
+	border-radius: 10px;
+	border: solid 2px #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+#showcase a:hover {
+	color: #28A8FF;
+	background-color: #FFF;
+	transition: all 300ms ease;
+}
+
+
+/* About */
+
+#about {
+	background-color: #707070;
+	padding: 60px;
+}
+
+#about p {
+	color: #FFF;
+	text-align: center;
+	font-size: 25px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+#about table {
+	margin: 0 auto;
+	border-collapse: separate;
+	border-spacing: 40px;
+}
+
+#about table td.skillImg {
+	background-color: #FFF;
+	height: 200px;
+	width: 200px;
+	border-radius: 20px;
+	text-align: center;
+	padding: 10px;
+}
+
+#about table td.skillImg img {
+	width: 150px;
+	height: auto;
+	margin: auto;
+}
+
+#about table td.skillName {
+	background-color: #FFF;
+	color: #707070;
+	text-align: center;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+#about table td p.skillNameMobile {
+	display: none;
+}
+
+
+/* Projects, Images Slideshow */
+
+#projects {
+	height: 100vh;
+	background-image: url('../img/projects_bg.png');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+}
+
+ #projects h3 {
+ 	color: rgba(255, 255, 255, 0.4);
+ 	font-family: 'Roboto';
+ 	font-size: 70px;
+ 	font-weight: 900;
+ 	text-transform: uppercase;
+ }
+
+	/* Slideshow Styles Apart */
+
+
+/* Dribbble Section */
+
+#projectsDribbble {
+	background-color: #C4C4C4;
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#projectsDribbble p {
+	float: left;
+	font-size: 20px;
+}
+
+#projectsDribbble img {
+	height: 40px;
+	width: auto;
+}
+
+
+/* Contact */
+
+#contact {
+	height: 70vh;
+	padding: 30px;
+	background-image: url('../img/contact_us_bg.png');
+	background-size: cover;
+	background-position: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact h2 {
+	font-size: 45px;
+}
+
+#contact p {
+	font-size: 20px;
+	margin: 20px 0 40px 0;
+}
+
+#contact table {
+	border-collapse: separate;
+	border-spacing: 20px;
+	border-radius: 5px;
+
+	background-color: #FFF;
+	color: #3F97C6;
+	font-size: 20px;
+}
+
+
+/* Footer */
+
+footer {
+	padding: 30px;
+	background-color: #454545;
+}
+
+footer p {
+	margin: 0;
+	position: relative;
+	top: 50%;
+	display: inline;
+}
+
+#langFooter {
+	display: inline;
+	float: right;
+	position: relative;
+	top: 50%;
+}
+
+#langFooter img {
+	display: inline;
+	width: 30px;
+	height: auto;
+	margin-right: 15px;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 1024px) {
+	#showcase a {
+		color: #28A8FF;
+		background-color: #FFF;
+	}
+}
+
+@media only screen and (max-width: 856px) {
+	#bout table td {
+		height: 150px;
+		width: 150px;
+		padding: 0;
+	}
+
+	#about table td.skillImg img {
+		height: 100px;
+		width: 100px;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	#projects .diy-slideshow {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	#projects h3 {
+		font-size: 60px;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	#about {
+		padding: 30px;
+	}
+
+	#about table td {
+		display: block;
+		margin-bottom: 50px;
+	}
+
+	#about table td.skillImg {
+		line-height: 150px;
+	}
+
+	#about table td.skillImg img {
+		vertical-align: middle;
+	}
+
+	#about table td.skillName {
+		display: none;
+	}
+
+	#about table td p.skillNameMobile {
+		display: block;
+		background-color: #FFF;
+		color: #707070;
+		font-size: 14px;
+		width: 150px;
+		border-radius: 20px;
+	}
+}
+
+@media only screen and (max-width: 490px) {
+	#showcase h3 {
+		font-size: 50px;
+	}
+
+	#showcase a {
+		font-size: 20px;
+	}
+
+	#projects {
+		padding: 15px;
+	}
+
+	#projects .diy-slideshow {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 361px) {
+	#showcase h3 {
+		font-size: 40px;
+	}
+
+	#showcase a {
+		font-size: 15px;
+	}
+
+	#projectsDribbble p {
+		font-size: 15px;
+	}
+
+	#projectsDribbble img {
+		height: 30px;
+	}
+}
