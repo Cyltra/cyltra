@@ -4,6 +4,13 @@
 
 body {font-family: 'Varela Round', sans-serif; box-sizing: border-box; background-color: #FFF;}
 
+body.projectCS {
+	background-image: url('../img/projectCS_bg.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 ::-webkit-scrollbar {
 	width: 9px;
 }
@@ -27,8 +34,10 @@ nav {
 	width: 100%;
 	vertical-align: middle;
 	padding: 0 30px;
-	position: fixed;
-	z-index: 99;
+}
+
+nav.nav_pcs {
+	background: transparent;
 }
 
 a#brandNav {
@@ -54,6 +63,14 @@ a#brandNav img {
 
 #langNav a#langActive {
 	color: #749BFF;
+}
+
+#projectsNav {
+	color: #749BFF;
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	line-height: 80px;
+	text-decoration: none;
 }
 
 
@@ -235,6 +252,10 @@ footer {
 	background-color: #454545;
 }
 
+footer.footer_pcs {
+	margin-top: 50px;
+}
+
 footer p {
 	margin: 0;
 	position: relative;
@@ -254,6 +275,73 @@ footer p {
 	width: 30px;
 	height: auto;
 	margin-right: 15px;
+}
+
+
+/* Project Case Study */
+
+.pcs_container {
+	width: 80%;
+	margin: auto;
+	vertical-align: baseline;
+}
+
+h3.subtitle {
+	font-size: 40px;
+	color: #333;
+}
+
+p.description, p.description a {
+	margin: 20px 0;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 20px;
+	color: #333;
+	line-height: 1.5;
+}
+
+section.sub_section {
+	margin-bottom: 35px;
+}
+
+img#sp_bc {
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+
+.final_pg_btns {
+	margin: auto;
+}
+
+a.final_btn {
+	width: 40%;
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 10px;
+	border: solid 2px #292929;
+	color: #292929;
+	display: block;
+	text-align: center;
+	margin: 20px auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+a.final_btn:hover {
+	color: #FFF;
+	background-color: #292929;
+	transition: all 300ms ease;
+}
+
+a.btn_inactive {
+	border-color: #6d6d6d;
+	color: #6d6d6d;
+}
+
+a.btn_inactive:hover {
+	border-color: #6d6d6d;
+	background-color: transparent;
+	color: #6d6d6d;
+	cursor: default;
 }
 
 /* Responsive Design */
@@ -319,6 +407,10 @@ footer p {
 		font-size: 14px;
 		width: 150px;
 		border-radius: 20px;
+	}
+
+	a.final_btn {
+		width: 50%;
 	}
 }
 
