@@ -432,6 +432,12 @@ a.btn_inactive:hover {
 	}
 }
 
+@media only screen and (max-width: 490px) {
+	img#sp_bc {
+		width: 90%;
+	}	
+}
+
 @media only screen and (max-width: 361px) {
 	#showcase h3 {
 		font-size: 40px;
@@ -447,5 +453,9 @@ a.btn_inactive:hover {
 
 	#projectsDribbble img {
 		height: 30px;
+	}
+	
+	img#sp_bc {
+		width: 100%;
 	}
 }
