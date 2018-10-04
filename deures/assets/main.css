@@ -277,5 +277,6 @@ body {
     .horari-min {
         display: block;
         margin-bottom: 70px;
+        width: 90%;
     }
  }
