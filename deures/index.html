@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="./assets/main.css">
     <link href="./assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <script src="./assets/app.js"></script>
 </head>
 <body>
     <div class="hero">
@@ -22,19 +24,23 @@
 
             <!--
                 Caràcters màxims descripció: 25-32.
+
                 Plantilla:
+
                 <div class="element">
                     <span class="assignatura nom">Nom</span>
                     <span class="descripcio">Descripció</span>
                 </div>
+
                 Noms d'assignatures (classe): cas, cat, mat, ang, reva, geo, bio, obt, fiq, tec, tut, hor, edf, pat, pll.
                 Noms d'assignatures (nom): Cas, Cat, Mat, Ang, R/V, Geo, Bio, Obt, FiQ, Tec, Tut, Hor, EdF, Pat, PlL.
+
                 Dates: class="data"; ex.: 18/03/19.
                         <div class="data"></div>
             -->
 
             <h3 class="titol">Deures</h3>
-            
+
             <div class="data">8/10/18</div>
 
             <div class="element">
@@ -53,13 +59,17 @@
 
             <!--
                 Caràcters màxims descripció: 23.
+
                 Plantilla:
+
                 <div class="element">
                     <span class="assignatura nom">Nom</span>
                     <span class="descripcio">Descripció</span>
                 </div>
+
                 Noms d'assignatures (classe): cas, cat, mat, ang, reva, geo, bio, obt, fiq, tec, tut, hor, edf, pat, pll.
                 Noms d'assignatures (nom): Cas, Cat, Mat, Ang, R/V, Geo, Bio, Obt, FiQ, Tec, Tut, Hor, EdF, Pat, PlL.
+
                 Dates: class="data"; ex.: 18/03/19.
                         <div class="data"></div>
             -->
@@ -69,26 +79,99 @@
             <div class="data">11/10/18</div>
 
             <div class="element">
-                    <span class="assignatura geo">Geo</span>
-                    <span class="descripcio">Introducció, relleu i climes</span>
+                <span class="assignatura geo">Geo</span>
+                <span class="descripcio">Introducció, relleu i climes</span>
             </div>
 
             <div class="data">17/10/18</div>
 
             <div class="element">
-                    <span class="assignatura cat">Cat</span>
-                    <span class="descripcio">Unitat 1 i literatura</span>
+                <span class="assignatura cat">Cat</span>
+                <span class="descripcio">Unitat 1 i literatura</span>
             </div>
 
             <div class="data">19/10/18</div>
             
             <div class="element">
-                    <span class="assignatura bio">Bio</span>
-                    <span class="descripcio">U1. L'ésser humà i la salut</span>
+                <span class="assignatura bio">Bio</span>
+                <span class="descripcio">U1. L'ésser humà i la salut</span>
             </div>
         </div>
 
-    </div>    
+    </div>
+
+    <div class="cal">
+
+        <div class="cal-nom">
+            <h3>Calendari Exàmens</h3>
+            <h4>Octubre 2018</h4>
+        </div>
+
+        <div class="calendari">
+
+            <div class="row">
+                <div class="col col-corner-top-left col-header"><p>L</p></div>
+                <div class="col col-header"><p>M</p></div>
+                <div class="col col-header"><p>X</p></div>
+                <div class="col col-header"><p>J</p></div>
+                <div class="col col-header"><p>V</p></div>
+                <div class="col col-header"><p>S</p></div>
+                <div class="col col-corner-top-right col-header"><p>D</p></div>
+            </div>
+
+            <div class="row">
+                <div class="col" id="cal-1"><p>1</p></div>
+                <div class="col" id="cal-2"><p>2</p></div>
+                <div class="col" id="cal-3"><p>3</p></div>
+                <div class="col" id="cal-4"><p>4</p></div>
+                <div class="col" id="cal-5"><p>5</p></div>
+                <div class="col col-festiu" id="cal-6"><p>6</p></div>
+                <div class="col col-festiu" id="cal-7"><p>7</p></div>
+            </div>
+
+            <div class="row">
+                <div class="col col-avui" id="cal-8"><p>8</p></div>
+                <div class="col" id="cal-9"><p>9</p></div>
+                <div class="col" id="cal-10"><p>10</p></div>
+                <div class="col" id="cal-11"><p class="geo">11<span class="hover-box geo">Intr., relleu i climes</span></p></div>
+                <div class="col" id="cal-12"><p>12</p></div>
+                <div class="col col-festiu" id="cal-13"><p>13</p></div>
+                <div class="col col-festiu" id="cal-14"><p>14</p></div>
+            </div>
+
+            <div class="row">
+                <div class="col" id="cal-15"><p>15</p></div>
+                <div class="col" id="cal-16"><p>16</p></div>
+                <div class="col" id="cal-17"><p class="cat">17<span class="hover-box cat">Unitat 1 i literatura</span></p></div>
+                <div class="col" id="cal-18"><p>18</p></div>
+                <div class="col" id="cal-19"><p class="bio">19<span class="hover-box bio">U1 L'ésser humà i la salut</span></p></div>
+                <div class="col col-festiu" id="cal-20"><p>20</p></div>
+                <div class="col col-festiu" id="cal-21"><p>21</p></div>
+            </div>
+
+            <div class="row">
+                <div class="col" id="cal-22"><p>22</p></div>
+                <div class="col" id="cal-23"><p>23</p></div>
+                <div class="col" id="cal-24"><p>24</p></div>
+                <div class="col" id="cal-25"><p>25</p></div>
+                <div class="col" id="cal-26"><p>26</p></div>
+                <div class="col col-festiu" id="cal-27"><p>27</p></div>
+                <div class="col col-festiu" id="cal-28"><p>28</p></div>
+            </div>
+
+            <div class="row">
+                <div class="col col-corner-bottom-left" id="cal-29"><p>29</p></div>
+                <div class="col" id="cal-30"><p>30</p></div>
+                <div class="col" id="cal-31"><p>31</p></div>
+                <div class="col"><p></p></div>
+                <div class="col"><p></p></div>
+                <div class="col col-festiu"><p></p></div>
+                <div class="col col-festiu col-corner-bottom-right"><p></p></div>
+            </div>
+
+        </div>
+
+    </div>
 
     <div class="horari horari-max">
 
@@ -229,5 +312,6 @@
         </div>
 
     </div>
+
 </body>
 </html>
