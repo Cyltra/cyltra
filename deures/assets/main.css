@@ -166,6 +166,12 @@ body {
     color: #c4666d;
 }
 
+.fest {
+    background-color: #f2f2f2;
+    color: #b20041;
+    border: 2px solid #b20041;
+}
+
 .cal {
     display: flex;
     width: 100%;
@@ -225,8 +231,13 @@ body {
      color: #b20041;
 }
 
+.xl {
+    border: 2px solid #b20041;
+}
+
 .calendari .col p {
      border-radius: 5px;
+     text-align: center;
      line-height: 20px;
      width: 20px;
      float: left;
