@@ -97,39 +97,18 @@ body {
     color: #ff99ed;
 }
 
-.cat-2 {
-    color: #ff54e2;
-    border: 1px solid #ff54e2;
-}
-
 .cas {
     background-color: #25abea;
     color: #6dcdf9;
-}
-
-.cas-2 {
-    color: #25abea;
-    border: 1px solid #25abea;
 }
 
 .bio {
     background-color: #14b72c;
     color: #4ee064;
 }
-
-.bio-2 {
-    color: #14b72c;
-    border: 1px solid #14b72c;
-}
-
 .geo {
     background-color: #7023bc;
     color: #9d64d6;
-}
-
-.geo-2 {
-    color: #7023bc;
-    border: 1px solid #7023bc;
 }
 
 .ang {
@@ -137,19 +116,9 @@ body {
     color: #f4eb69;
 }
 
-.ang-2 {
-    color: #eadd27;
-    border: 1px solid #eadd27;
-}
-
 .mat {
     background-color: #ea2626;
     color: #f75454;
-}
-
-.mat-2 {
-    color: #ea2626;
-    border: 1px solid #ea2626;
 }
 
 .reva {
@@ -157,19 +126,9 @@ body {
     color: #ffbf59;
 }
 
-.reva-2 {
-    color: #ff9d00;
-    border: 1px solid #ff9d00;
-}
-
 .obt {
     background-color: #00ffbb;
     color: #d1fff2;
-}
-
-.obt-2 {
-    color: #00ffbb;
-    border: 1px solid #00ffbb;
 }
 
 .fiq {
@@ -177,19 +136,9 @@ body {
     color: #c8ff6b;
 }
 
-.fiq-2 {
-    color: #b3f442;
-    border: 1px solid #b3f442;
-}
-
 .tec {
     background-color: #008c19;
     color: #68c178;
-}
-
-.tec-2 {
-    color: #008c19;
-    border: 1px solid #008c19;
 }
 
 .tut {
@@ -197,19 +146,9 @@ body {
     color: #b1a8ff;
 }
 
-.tut-2 {
-    color: #8577ff;
-    border: 1px solid #8577ff;
-}
-
 .edf {
     background-color: #ff7011;
     color: #ff9956;
-}
-
-.edf-2 {
-    color: #ff7011;
-    border: 1px solid #ff7011;
 }
 
 .hor {
@@ -217,39 +156,14 @@ body {
     color: #8551ff;
 }
 
-.hor-2 {
-    color: #4f07f7;
-    border: 1px solid #4f07f7;
-}
-
 .pat {
     background-color: #9e9e9e;
     color: #c6c6c6;
 }
 
-.pat-2 {
-    color: #9e9e9e;
-    border: 1px solid #9e9e9e;
-}
-
 .pll {
     background-color: #700009;
     color: #c4666d;
-}
-
-.pll-2 {
-    color: #700009;
-    border: 1px solid #700009;
-}
-
-div.hr {
-    width: 60%;
-    margin: auto;
-    border-top: solid 1px #e8e8e8;
-}
-
-hr {
-    display: none;
 }
 
 .cal {
@@ -303,11 +217,11 @@ hr {
      color: #004e5e;
 }
 
- .calendari .col-festiu {
+ .calendari .col-avui {
      color: #004e5e;
 }
 
- .col-avui {
+ .col-festiu {
      color: #b20041;
 }
 
