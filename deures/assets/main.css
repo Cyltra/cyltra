@@ -237,8 +237,12 @@ body {
      position: relative;
 }
 
- .calendari .col-avui p {
+ .calendari .col-avui-ex p {
      color: #fff;
+}
+
+.calendari .col-avui p {
+    color: #004e5e;
 }
 
 .hover-box {
