@@ -167,6 +167,13 @@ body {
     color: #c4666d;
 }
 
+.geo-ang {
+    background: #7023bc;
+    color: #eadd27;
+    background-image: linear-gradient(to left, #7023bc, #eadd27);
+    color: white;
+}
+
 .fest {
     background-color: #f2f2f2;
     color: #b20041;
@@ -247,9 +254,9 @@ body {
 
 .hover-box {
     position: absolute;
-    top: -100%;
+    top: -130%;
     left: 50%;
-    transform:translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     margin: auto;
     z-index: 99;
     border-radius: 10px;
