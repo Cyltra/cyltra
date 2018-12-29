@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Fuck Luck Streatwear</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto:400,500|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="https://www.goodnewsnetwork.org/wp-content/uploads/2010/06/monopoly-character.jpg">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <style>
+
+        html {
+            overflow-x: hidden;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            box-sizing: border-box;
+        }
+
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 50px;
+            background-color: #adadad;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #e8e8e8;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .white {
+            color: white;
+        }
+
+        nav {
+            height: 100px;
+            min-width: 100%;
+            background-color: #fff;
+            box-shadow: 0 2px 50px rgba(0, 0, 0, .15);
+            padding-top: 10px;
+        }
+
+        nav h1 {
+            font-family: 'Kaushan Script', sans-serif;
+            font-size: 2.2em;
+            text-align: center;
+        }
+
+        nav h3 {
+            color: #979797;
+            font-size: 0.65em;
+            font-weight: 500;
+            letter-spacing: 9px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        #gallery {
+            max-width: 1900px;
+            margin: auto;
+            padding-top: 100px;
+            margin-bottom: 140px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .item {
+            display: inline-block;
+            height: 487px;
+            width: 23%;
+            min-width: 320px;
+            max-width: 400px;
+            margin-right: 4%;
+            background-color: #fff;
+            box-shadow: 0 2px 50px rgba(0, 0, 0, .2);
+            border-radius: 10px 10px 10px 10px;
+            margin-bottom: 80px;
+        }
+
+        .product {
+            height: 354px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px 10px 0 0;
+        }
+
+        #item1 .product {
+            background-image: url('img/mockup 1.jpg');
+            background-color: #FFD600;
+        }
+
+        #item2 .product {
+            /*background-image: url('img/mockup 1.jpg');*/
+            background-color: #00D9E7;
+        }
+
+        #item3 .product {
+            /*background-image: url('img/mockup 1.jpg');*/
+            background-color: #00FF94;
+        }
+
+        #item4 .product {
+            background-color: #FFD600;
+        }
+
+        #item5 .product {
+            background-color: #00D9E7;
+        }
+
+        #item6 .product {
+            background-color: #00FF94;
+        }
+
+        .description {
+            margin: 20px 20px 10px 20px;
+            font-weight: 500;
+            font-size: 1.1em;
+            text-transform: uppercase;
+        }
+
+        .price {
+            margin: 0 20px 0 20px;
+            color: #979797;
+            font-size: 1.1em;
+            display: inline-block;
+        }
+
+        .purchase {
+            display: inline-block;
+            font-size: 1.1em;
+            padding: 10px;
+            background-color: #29ECB2;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, .15);
+            border-radius: 20px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .contact {
+            margin-bottom: 120px;
+            color: #e8e8e8;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3em;
+            text-align: center;
+        }
+
+        footer {
+            height:74px;
+            width: 100%;
+            background-color: #3B3B3B;
+            color: #fff;
+        }
+
+        #wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 77%;
+            height: 100%;
+            margin: auto;
+            position: relative;
+        }
+
+        .copy {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h1>Fuck Luck</h1>
+        <h3><span class="white">_</span>Streatwear</h3>
+    </nav>
+
+    <!--<i class="fab fa-instagram"></i>-->
+
+    <div id="gallery">
+
+        <!--<div class="row" id="row1">-->
+
+            <div class="item" id="item1">
+                <div class="product"></div>
+                <div class="description">Black hoodie with red "extended" design</div>
+                <div class="price">49.99$</div>
+                <a href="https://teespring.com/es/shop/fuck-luck-hoodie?aid=marketplace&tsmac=marketplace&tsmic=error#pid=377&cid=100057&sid=front" class="purchase" target="_blank">Purchase</a>
+            </div>
+
+            <div class="item" id="item2">
+                <div class="product"></div>
+                <div class="description">White / black t-shirt with red vertical design</div>
+                <div class="price">29.99$</div>
+                <a href="#" class="purchase" target="_blank">Purchase</a>
+            </div>
+
+            <div class="item" id="item3">
+                <div class="product"></div>
+                <div class="description">Toothbrush with minimal "fuck luck" design</div>
+                <div class="price">10.99$</div>
+                <a href="#" class="purchase" target="_blank">Purchase</a>
+            </div>
+
+        <!--</div>-->
+
+        <!--<div class="row" id="row2">-->
+
+            <div class="item" id="item4">
+                <div class="product"></div>
+                <div class="description">Black hoodie with red "extended" design</div>
+                <div class="price">49.99$</div>
+                <a href="#" class="purchase" target="_blank">Purchase</a>
+            </div>
+
+            <div class="item" id="item5">
+                <div class="product"></div>
+                <div class="description">White / black t-shirt with red vertical design</div>
+                <div class="price">29.99$</div>
+                <a href="#" class="purchase" target="_blank">Purchase</a>
+            </div>
+
+            <div class="item" id="item6">
+                <div class="product"></div>
+                <div class="description">Toothbrush with minimal "fuck luck" design</div>
+                <div class="price">10.99$</div>
+                <a href="#" class="purchase" target="_blank">Purchase</a>
+            </div>
+
+        <!--</div>-->
+
+    </div>
+
+    <div class="contact">fl-clothing@gmail.com</div>
+    
+    <footer>
+
+        <div id="wrapper">
+
+            <p class="copy">Copyright 2019 Fuck Luck Clothing</p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
